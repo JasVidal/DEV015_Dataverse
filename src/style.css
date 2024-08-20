@@ -530,6 +530,112 @@ div .description {
   font-family: "Josefin Sans", sans-serif;
 }
 
+/* Regístrate */
+
+.registrate {
+  width: auto;
+  height: auto;
+  background-color: #FF2F13;
+  display: flex;
+  flex-direction: column; /*ponerlo en columna*/
+  justify-content: space-around;
+  align-items: center;
+}
+
+.registrate-izquierda {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  text-align: center;
+  z-index: 11;
+  align-items: center;
+}
+
+.registrate-derecha {
+  width: 50%;
+  height: 700px;
+  text-align: center;
+  z-index: 10;
+  margin-top: -180px;
+  text-align: center;
+}
+
+.vector-registrate {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  margin-top: 200px;
+  margin-left: -310px;
+  z-index: -300;
+}
+
+.img-registrate {
+  width: auto;
+  height: 250px;
+  margin-left: 190px;
+  margin-bottom: -520px;
+}
+
+.txt-registrate {
+  width: 100%;
+  color: #ffffff;
+}
+
+.txt-registrate > h1 {
+    font-family: "Cherry Bomb One";
+    font-size: 4em;
+    font-weight: 400;
+    color: #FFBDB3;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.txt-registrate p {
+    font-family: "Josefin Sans";
+    color: #ffffff;
+    text-align: center;
+}
+
+.txt-registrate p {
+    margin-left: 0px;
+}
+
+.form {
+  margin-top: 15em;
+}
+
+.form input {
+  background-color: #FF2828;
+  border-radius: 2em;
+  border: none;
+  padding-top: 0.4em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  padding-bottom: 0.4em;
+  text-align: left;
+  font-family: 'Josefin Sans';
+  line-height: 2em;
+  margin-top: 2em;
+}
+
+.form input::placeholder {
+  color: #ffffff;
+}
+
+#enviar {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+  color: #ED0606;
+  background: transparent;
+  border: none;
+  margin-top: 2em;
+  font-family: "Cherry Bomb One";
+}
+
 /* Footer */
 
 footer{
