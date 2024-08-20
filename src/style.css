@@ -253,7 +253,7 @@ select[name='ordenar'] {
 }
 
 #btn-estadísticas {
-  background-color: #ED8A0A;
+  background-color: #ff961df6;
   border-radius: 2em;
   border: none;
   padding-top: 0.4em;
@@ -447,7 +447,7 @@ div .description {
 
 footer{
   z-index: 550;
-  background: #FFB700;
+  background: #e7a900;
   height: 200px;
   display: flex;
   justify-content: space-around;
@@ -509,12 +509,12 @@ footer h3{
   display: none;
   margin: 2em 9em 0 9em;
   border-radius: 10px;
-  background: rgba(255, 255, 31, 0.4);
+  background: #ff9f31;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 247, 0, 0.552);
+  border: 1px solid #ff961df6;
   z-index: 30;
   align-items: center;
   text-align: center;
@@ -652,7 +652,7 @@ li {
 
 .banner {
     width: 100%;
-    height: 470px;
+    height: 552px;
     background-color: #7BE950;
     display: flex;
     justify-content: space-around;
@@ -717,7 +717,7 @@ li {
 }
 
 .texto p {
-  margin-left: 80px;
+  margin-left: 200px;
   font-size: 1.1em;
 }
 
@@ -751,7 +751,11 @@ li {
   height: 60px;
   gap: 1rem;
   background-color: #F0D8FF;
-  font-size: 0.8em;
+  font-size: 1.3em;
+}
+
+.boton-filtros{
+  cursor: pointer;
 }
 
 .opciones-mascota {
@@ -770,22 +774,9 @@ li {
   margin-right: 5px;
 }
 
-select[name='ordenar'] {
-  background-color: #ED8A0A;
-  border-radius: 2em;
-  border: none;
-  padding-top: 0.4em;
-  padding-left: 1.1em;
-  padding-right: 1.1em;
-  padding-bottom: 0.4em;
-  color:#ffffff;
-  text-align: center;
-  font-family: 'Josefin Sans';
-}
-
-
 #btn-estadísticas {
   background-color: #ED8A0A;
+  cursor: pointer;
   border-radius: 2em;
   border: none;
   padding-top: 0.4em;
@@ -795,7 +786,6 @@ select[name='ordenar'] {
   color:#ffffff;
   text-align: center;
   font-family: 'Josefin Sans';
-  font-size: 0.9em;
 }
 
 #btn-limpiar {
@@ -810,7 +800,7 @@ select[name='ordenar'] {
   color:#ffffff;
   text-align: center;
   font-family: 'Josefin Sans';
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 #btn-limpiar:hover {
@@ -851,21 +841,6 @@ select[name='elegir'] {
   justify-content: center;
 }
 
-
-
-select[name='elegir'] {
-  background-color: #5C2E80;
-  border-radius: 2em;
-  border: none;
-  padding-top: 0.4em;
-  padding-left: 1.1em;
-  padding-right: 1.1em;
-  padding-bottom: 0.4em;
-  color:#ffffff;
-  text-align: center;
-  font-family: 'Josefin Sans';
-}
-
 /* Tarjetas */
 
 #root{
@@ -883,7 +858,7 @@ select[name='elegir'] {
   font-family: "Cherry Bomb One";
   font-size: 4.5em;
   font-weight: 400;
-  margin-top: 1.2em;
+  margin-top: 1.1em;
   margin-bottom: 1.4em;
   color: #4C1271;
   line-height: 80px;
@@ -948,10 +923,10 @@ select[name='elegir'] {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.412);
   background-color: #ffffffe7;
-  max-width: 350px;
+  max-width: 250px;
   flex-direction: column;
   padding: 10px;
-  font-size: 1.3em;
+  font-size: 1.1em;
   margin: 0 0 16px;
   color: #1e1e1e;
   text-align: left;
@@ -965,21 +940,21 @@ select[name='elegir'] {
   border-radius: 50%;
   object-fit: cover;
   text-align: center;
-  margin: 10px 40px 0 40px;
+  margin: 10px 0px 0px 24px;
 }
 
 .estadisticas-section {
   width: 70%;
   height: 150px;
   display: none;
-  margin: 2em 10em 0 10em;
+  margin: 2em 12em 0em 12em;
   border-radius: 10px;
-  background: rgba(255, 255, 31, 0.4);
+  background: #ff9f31;
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 10px rgba(8, 8, 8, 0.568);
+  backdrop-filter: blur(2em);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 247, 0, 0.552);
+  border: 1px solid #ff961df6;
   z-index: 30;
   align-items: center;
   text-align: center;

@@ -2,6 +2,7 @@ import { renderItems } from './view.js';
 import dataFunctions from './dataFunctions.js';
 import petsData from './data/dataset.js';
 
+// destructuracion de objetos en JS
 const { showPets, filterDataByType, filterDataByAge, filterDataByValue, orderPetsBy, countAdoptedPets } = dataFunctions;
 
 //------------------ Botones principales ------------------//

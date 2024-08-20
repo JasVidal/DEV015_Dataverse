@@ -41,4 +41,3 @@ export const renderItems = (pets) => {
   return ul;
 };
 
-export default renderItems;
