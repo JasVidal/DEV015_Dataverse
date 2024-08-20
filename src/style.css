@@ -143,9 +143,9 @@ li {
 .img-banner {
   z-index: 19;
   width: auto;
-  height: 250px;
+  height: 280px;
   margin-right: 90px;
-  margin-top: -5px;
+  margin-top: -30px;
 }
 
 .derecha {
@@ -162,7 +162,7 @@ li {
 }
 
 .texto h1 {
-    font-family: "Cherry Bomb One", system-ui;
+    font-family: "Cherry Bomb One";
     font-size: 4em;
     font-weight: 400;
     color: #0A5C1B;
@@ -445,28 +445,28 @@ div .description {
 
 /* Nosotros */
 
-.banner {
+.nosotros {
   width: 100%;
-  height: 1000px;
-  background-color: #7BE950;
+  height: auto;
+  background-color: #ffc42f;
   display: flex;
   flex-direction: column; /*ponerlo en columna*/
   justify-content: space-around;
   align-items: center;
 }
 
-.izquierda {
+.nosotros-izquierda {
   width: 70%;
   height: 500px;
   display: flex;
   justify-content: center;
-  margin-top: 8rem;
+  margin-top: 12rem;
   margin-left: 6.5em;
   text-align: center;
   z-index: 19;
 }
 
-.vector {
+.vector-nosotros {
   position: absolute;
   margin-right: 20px;
   width: 80%;
@@ -475,60 +475,56 @@ div .description {
   margin-right: 105px;
 }
 
-.img-banner {
+.img-nosotros {
   z-index: 19;
   width: auto;
-  height: 250px;
-  margin-right: 90px;
+  height: 220px;
+  margin-right: 110px;
   margin-top: -5px;
 }
 
-.derecha {
+.nosotros-derecha {
   width: 50%;
-  height: 500px;
+  height: 470px;
   text-align: center;
   z-index: 19;
-  margin-top: -180px;
+  margin-top: -130px;
 }
 
-.texto {
+.texto-nosotros {
   text-align: center;
   width: 100%;
 }
 
-.texto h1 {
-    font-family: "Cherry Bomb One", system-ui;
+.texto-nosotros h1 {
+    font-family: "Cherry Bomb One";
     font-size: 4em;
     font-weight: 400;
-    color: #0A5C1B;
+    color: #7b5600;
     line-height: 70px;
     margin-bottom: 3.5rem;
     text-align: center;
 }
 
-.texto h2, .texto p {
+.texto-nosotros p {
     font-family: "Josefin Sans";
     color: #272523;
     margin-bottom: 0.9em;
 }
 
-.texto p {
+.texto-nosotros p {
     margin-left: 0px;
 }
 
-.texto h2 {
-    margin-bottom: 1em;
-}
-
-#conocelos-btn {
-  margin-top: 20px;
+#sumate-btn {
+  margin-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 1.2em;
   color: white;
-  background-color: #58C22F;
+  background-color: #FFAE00;
   border: none;
   box-shadow: 3px 4px #68686824;
   font-family: "Josefin Sans", sans-serif;
