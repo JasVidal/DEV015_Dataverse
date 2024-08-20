@@ -443,6 +443,97 @@ div .description {
   text-align: center;
 }
 
+/* Nosotros */
+
+.banner {
+  width: 100%;
+  height: 1000px;
+  background-color: #7BE950;
+  display: flex;
+  flex-direction: column; /*ponerlo en columna*/
+  justify-content: space-around;
+  align-items: center;
+}
+
+.izquierda {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  margin-left: 6.5em;
+  text-align: center;
+  z-index: 19;
+}
+
+.vector {
+  position: absolute;
+  margin-right: 20px;
+  width: 80%;
+  height: 400px;
+  margin-top: -90px;
+  margin-right: 105px;
+}
+
+.img-banner {
+  z-index: 19;
+  width: auto;
+  height: 250px;
+  margin-right: 90px;
+  margin-top: -5px;
+}
+
+.derecha {
+  width: 50%;
+  height: 500px;
+  text-align: center;
+  z-index: 19;
+  margin-top: -180px;
+}
+
+.texto {
+  text-align: center;
+  width: 100%;
+}
+
+.texto h1 {
+    font-family: "Cherry Bomb One", system-ui;
+    font-size: 4em;
+    font-weight: 400;
+    color: #0A5C1B;
+    line-height: 70px;
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+
+.texto h2, .texto p {
+    font-family: "Josefin Sans";
+    color: #272523;
+    margin-bottom: 0.9em;
+}
+
+.texto p {
+    margin-left: 0px;
+}
+
+.texto h2 {
+    margin-bottom: 1em;
+}
+
+#conocelos-btn {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #58C22F;
+  border: none;
+  box-shadow: 3px 4px #68686824;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 /* Footer */
 
 footer{
