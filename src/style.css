@@ -737,7 +737,7 @@ div .description {
 }
 
 #contactanos-btn {
-  margin-top: 90px;
+  margin-top: 60px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
@@ -748,6 +748,124 @@ div .description {
   border: none;
   box-shadow: 3px 4px #68686824;
   font-family: "Josefin Sans", sans-serif;
+}
+
+/* Dona Aquí */
+
+.donaciones {
+  width: auto;
+  height: auto;
+  background-color: #ff4d7c;
+  display: flex;
+  flex-direction: column; /*ponerlo en columna*/
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.donaciones-izquierda {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  text-align: center;
+  z-index: 11;
+  text-align: center;
+  align-items: center;
+}
+
+.donaciones-derecha {
+  width: 80%;
+  height: 520px;
+  text-align: center;
+  z-index: 12;
+  margin-top: 120px;
+}
+
+.vector-donaciones {
+  position: absolute;
+  width: 100%;
+  height: 380px;
+  margin-top: 4em;
+  margin-left: -310px;
+}
+
+.img-donaciones {
+  width: auto;
+  height: 250px;
+  margin-right: -200px;
+  margin-top: -250px;
+}
+
+.txt-donaciones {
+  width: 100%;
+  color: #ffffff;
+}
+
+.texto-donaciones > h1 {
+    font-family: "Cherry Bomb One";
+    font-size: 4em;
+    font-weight: 400;
+    color: #9c0d33;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.texto-donaciones p {
+    font-family: "Josefin Sans";
+    color: #ffffff;
+    text-align: center;
+}
+
+.texto-donaciones p {
+    margin-left: 0px;
+}
+
+.planes {
+  margin-top: -1.5em;
+  margin-left: 10.5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.planes button {
+  background-color: #ff4863;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2em;
+  border: none;
+  padding-top: 0.4em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  padding-bottom: 0.4em;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Josefin Sans';
+  line-height: 2em;
+  margin-top: 2.5em;
+  z-index: 900;
+  font-size: 1.1em;
+}
+
+.form input::placeholder {
+  color: #ffffff;
+}
+
+#donar-btn {
+  margin-top: 7em;
+  margin-left: 1em;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  background-color: #ff8b9c;
+  border-radius: 0px;
+  box-shadow: 3px 4px #68686824;
+  font-family: "Josefin Sans";
 }
 
 /* Footer */
@@ -1287,6 +1405,438 @@ select[name='elegir'] {
   display: flex;
   justify-content: right;
   cursor: pointer;
+}
+
+/* Nosotros */
+
+.nosotros {
+  width: 100%;
+  height: auto;
+  background-color: #ffc42f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nosotros-izquierda {
+  width: 70%;
+  height: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-left: 4em;
+  text-align: left;
+  z-index: 19;
+}
+
+.nosotros-derecha {
+  width: 50%;
+  height: 400px;
+  text-align: right;
+  z-index: 19;
+  margin-top: 2em;
+  margin-right: 6em;
+}
+
+.vector-nosotros {
+  position: absolute;
+  margin-right: 5px;
+  width: 80%;
+  height: 400px;
+  margin-top: -90px;
+  margin-right: 105px;
+}
+
+.img-nosotros {
+  z-index: 19;
+  width: auto;
+  height: 220px;
+  margin-right: 110px;
+  margin-top: -5px;
+}
+
+.texto-nosotros {
+  text-align: right;
+  width: 100%;
+}
+
+.texto-nosotros h1 {
+    font-family: "Cherry Bomb One";
+    font-size: 4em;
+    font-weight: 400;
+    color: #7b5600;
+    line-height: 70px;
+    margin-bottom: 3.5rem;
+    text-align: right;
+}
+
+.texto-nosotros p {
+    font-family: "Josefin Sans";
+    color: #272523;
+    margin-bottom: 0.9em;
+}
+
+.texto-nosotros p {
+    margin-left: 0px;
+}
+
+#sumate-btn {
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #FFAE00;
+  border: none;
+  box-shadow: 3px 4px #68686824;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Regístrate */
+
+.registrate {
+  width: auto;
+  height: auto;
+  background-color: #FF2F13;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.registrate-izquierda {
+  width: 70%;
+  display: flex;
+  justify-content: left;
+  margin-top: -14em;
+  text-align: left;
+  z-index: 11;
+}
+
+.registrate-derecha {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  height: 700px;
+  text-align: right;
+  z-index: 10;
+  margin-top: -80px;
+  text-align: right;
+}
+
+.vector-registrate {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  margin-top: 170px;
+  margin-right: -300px;
+  z-index: -300;
+}
+
+.img-registrate {
+  width: auto;
+  height: 250px;
+  margin-left: 290px;
+  margin-bottom: -280px;
+}
+
+.txt-registrate {
+  width: 100%;
+  color: #ffffff;
+  margin-left: 150px;
+}
+
+.txt-registrate > h1 {
+    font-family: "Cherry Bomb One";
+    font-size: 4em;
+    font-weight: 400;
+    color: #FFBDB3;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.txt-registrate p {
+    font-family: "Josefin Sans";
+    color: #ffffff;
+    text-align: left;
+    margin-right: 12em;
+}
+
+.txt-registrate p {
+    margin-left: 0px;
+}
+
+.form {
+  margin-top: 15em;
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  background-color: #FF2828;
+  border-radius: 2em;
+  border: none;
+  padding-top: 0.4em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  padding-bottom: 0.4em;
+  text-align: left;
+  font-family: 'Josefin Sans';
+  line-height: 2em;
+  margin-top: 2em;
+  margin-right: 18em;
+}
+
+.form input::placeholder {
+  color: #ffffff;
+}
+
+#enviar {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+  color: #ED0606;
+  background: transparent;
+  border: none;
+  margin-top: 1em;
+  margin-right: 13em;
+  font-family: "Cherry Bomb One";
+}
+
+/* Visítanos */
+
+.visitanos {
+  width: 100%;
+  height: auto;
+  background-color: #34C5DF;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.visitanos-izquierda {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 15rem;
+  margin-left: 6.5em;
+  text-align: center;
+  z-index: 19;
+}
+
+.visitanos-derecha {
+  width: 50%;
+  height: 470px;
+  text-align: right;
+  z-index: 19;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+.vector-visitanos {
+  position: absolute;
+  margin-right: 20px;
+  width: 80%;
+  height: 600px;
+  margin-top: -160px;
+  margin-left: -15em;
+}
+
+.rect-visitanos {
+  position: absolute;
+  z-index: 19;
+  width: auto;
+  height: 80px;
+  margin-left: 110px;
+  margin-top: 0.3em;
+}
+
+.visitanos-izquierda > p {
+  z-index: 21;
+  color: #ffffff;
+  margin-left: 130px;
+  margin-top: 0.4em;
+  font-size: 2em;
+}
+
+.img-visitanos {
+  position: absolute;
+  z-index: 19;
+  width: auto;
+  height: 50px;
+  margin-left: 290px;
+  margin-top: 160px;
+}
+
+.img-visitanos2 {
+  z-index: 18;
+  width: auto;
+  height: 150px;
+  margin-left: 105px;
+  margin-top: -100px;
+}
+
+.texto-visitanos {
+  text-align: center;
+  width: 100%;
+}
+
+.texto-visitanos h1 {
+    font-family: "Cherry Bomb One";
+    font-size: 4em;
+    font-weight: 400;
+    color: #006D85;
+    line-height: 70px;
+    margin-bottom: 3.5rem;
+    text-align: right;
+}
+
+.texto-visitanos p {
+    font-family: "Josefin Sans";
+    color: #272523;
+    margin-bottom: 0.9em;
+    margin-left: 90px;
+    text-align: right;
+}
+
+#contactanos-btn {
+  margin-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #006D85;
+  border: none;
+  box-shadow: 3px 4px #68686824;
+  font-family: "Josefin Sans";
+  margin-left: 20em;
+}
+
+/* Dona Aquí */
+
+.donaciones {
+  width: auto;
+  height: auto;
+  background-color: #ff4d7c;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.donaciones-izquierda {
+  width: 70%;
+  height: 520px;
+  display: flex;
+  justify-content: left;
+  margin-top: -12em;
+  margin-left: 8em;
+  text-align: left;
+  z-index: 11;
+}
+
+.donaciones-derecha {
+  width: 80%;
+  height: 520px;
+  text-align: right;
+  z-index: 12;
+  margin-top: 5em;
+}
+
+.vector-donaciones {
+  position: absolute;
+  width: 100%;
+  height: 380px;
+  margin-top: -16em;
+  margin-left: 150px;
+}
+
+.img-donaciones {
+  width: auto;
+  height: 250px;
+  margin-right: 80px;
+  margin-top: -200px;
+}
+
+.txt-donaciones {
+  width: 100%;
+  color: #ffffff;
+}
+
+.texto-donaciones > h1 {
+    font-family: "Cherry Bomb One";
+    font-size: 4em;
+    font-weight: 400;
+    color: #9c0d33;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.texto-donaciones p {
+    font-family: "Josefin Sans";
+    color: #ffffff;
+    text-align: left;
+    margin-right: 100px;
+}
+
+.planes {
+  margin-top: 5.5em;
+  margin-left: 10.5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.planes button {
+  background-color: #ff4863;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2em;
+  border: none;
+  padding-top: 0.4em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  padding-bottom: 0.4em;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Josefin Sans';
+  line-height: 1.5em;
+  margin-top: 2em;
+  z-index: 900;
+  font-size: 1.1em;
+}
+
+.form input::placeholder {
+  color: #ffffff;
+}
+
+#donar-btn {
+  margin-top: 7em;
+  margin-left: -39em;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  background-color: #ff8b9c;
+  border-radius: 0px;
+  box-shadow: 3px 4px #68686824;
+  font-family: "Josefin Sans";
 }
 
 }
