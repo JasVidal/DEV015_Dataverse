@@ -766,6 +766,7 @@ div .description {
 .donaciones-izquierda {
   width: 70%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-top: 3rem;
   text-align: center;
@@ -778,23 +779,15 @@ div .description {
   width: 80%;
   height: 520px;
   text-align: center;
-  z-index: 12;
+  z-index: 10;
   margin-top: 120px;
 }
 
-.vector-donaciones {
-  position: absolute;
-  width: 100%;
-  height: 380px;
-  margin-top: 4em;
-  margin-left: -310px;
-}
-
 .img-donaciones {
+  position: absolute;
   width: auto;
   height: 250px;
-  margin-right: -200px;
-  margin-top: -250px;
+  margin-top: 80em;
 }
 
 .txt-donaciones {
@@ -822,11 +815,22 @@ div .description {
 }
 
 .planes {
-  margin-top: -1.5em;
-  margin-left: 10.5em;
   align-items: center;
   justify-content: center;
-}
+  width: 100%;
+  height: 580px;
+  background-image: url(./assets/Vector\ dona.svg);
+  background-size: cover;
+  background-position:center;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  }
+
+  .vector-donaciones {
+    width: auto;
+
+  }
 
 .planes button {
   background-color: #ff4863;
@@ -853,18 +857,20 @@ div .description {
 }
 
 #donar-btn {
-  margin-top: 7em;
+  margin-top: 2em;
   margin-left: 1em;
   align-items: center;
   justify-content: center;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
   color: white;
   background-color: #ff8b9c;
-  border-radius: 0px;
   box-shadow: 3px 4px #68686824;
+  border-radius: 0px;
+  border: none;
   font-family: "Josefin Sans";
 }
 
@@ -1076,7 +1082,7 @@ li {
 /* Desktop Banner */
 
 .banner {
-    width: 100%;
+    width: auto;
     height: 552px;
     background-color: #7BE950;
     display: flex;
@@ -1272,6 +1278,10 @@ select[name='elegir'] {
   margin-top: 0px;
 }
 
+.mascotas-container {
+  width: auto;
+}
+
 /* Tarjetas contenido */
 
 .mascotas-tarjetas {
@@ -1432,7 +1442,7 @@ select[name='elegir'] {
 }
 
 .nosotros-derecha {
-  width: 50%;
+  width: 30%;
   height: 400px;
   text-align: right;
   z-index: 19;
@@ -1518,7 +1528,7 @@ select[name='elegir'] {
 }
 
 .registrate-derecha {
-  width: 50%;
+  width: 30%;
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
@@ -1530,7 +1540,6 @@ select[name='elegir'] {
 }
 
 .vector-registrate {
-  position: absolute;
   width: 100%;
   height: 450px;
   margin-top: 170px;
@@ -1589,7 +1598,7 @@ select[name='elegir'] {
   font-family: 'Josefin Sans';
   line-height: 2em;
   margin-top: 2em;
-  margin-right: 18em;
+  margin-right: 19em;
 }
 
 .form input::placeholder {
@@ -1606,7 +1615,7 @@ select[name='elegir'] {
   background: transparent;
   border: none;
   margin-top: 1em;
-  margin-right: 13em;
+  margin-right: 13.5em;
   font-family: "Cherry Bomb One";
 }
 
@@ -1624,7 +1633,6 @@ select[name='elegir'] {
 
 .visitanos-izquierda {
   width: 70%;
-  height: 500px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -1635,8 +1643,8 @@ select[name='elegir'] {
 }
 
 .visitanos-derecha {
-  width: 50%;
-  height: 470px;
+  width: 30%;
+  display: flex;
   text-align: right;
   z-index: 19;
   margin-top: 100px;
@@ -1687,7 +1695,7 @@ select[name='elegir'] {
 }
 
 .texto-visitanos {
-  text-align: center;
+  text-align: right;
   width: 100%;
 }
 
@@ -1721,7 +1729,6 @@ select[name='elegir'] {
   border: none;
   box-shadow: 3px 4px #68686824;
   font-family: "Josefin Sans";
-  margin-left: 20em;
 }
 
 /* Dona Aquí */
@@ -1738,37 +1745,27 @@ select[name='elegir'] {
 }
 
 .donaciones-izquierda {
-  width: 70%;
-  height: 520px;
+  width: 60%;
   display: flex;
-  justify-content: left;
-  margin-top: -12em;
+  flex-direction: column;
+  margin-top: 2em;
   margin-left: 8em;
   text-align: left;
   z-index: 11;
 }
 
 .donaciones-derecha {
-  width: 80%;
-  height: 520px;
-  text-align: right;
+  width: 40%;
+  display: flex;
+  text-align: left;
   z-index: 12;
-  margin-top: 5em;
-}
-
-.vector-donaciones {
-  position: absolute;
-  width: 100%;
-  height: 380px;
-  margin-top: -16em;
-  margin-left: 150px;
+  margin-top: 1.8em;
 }
 
 .img-donaciones {
   width: auto;
   height: 250px;
-  margin-right: 80px;
-  margin-top: -200px;
+  margin-top: 10px;
 }
 
 .txt-donaciones {
@@ -1792,11 +1789,8 @@ select[name='elegir'] {
     margin-right: 100px;
 }
 
-.planes {
-  margin-top: 5.5em;
-  margin-left: 10.5em;
-  align-items: center;
-  justify-content: center;
+.vector-donaciones {
+  width: 100%;
 }
 
 .planes button {
@@ -1824,17 +1818,15 @@ select[name='elegir'] {
 }
 
 #donar-btn {
-  margin-top: 7em;
-  margin-left: -39em;
-  align-items: center;
-  justify-content: center;
+  margin-top: 3em;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
   color: white;
+  border: none;
   background-color: #ff8b9c;
-  border-radius: 0px;
   box-shadow: 3px 4px #68686824;
   font-family: "Josefin Sans";
 }
