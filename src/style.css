@@ -758,7 +758,7 @@ div .description {
   background-color: #ff4d7c;
   display: flex;
   flex-direction: column; /*ponerlo en columna*/
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
@@ -772,22 +772,27 @@ div .description {
   text-align: center;
   z-index: 11;
   text-align: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .donaciones-derecha {
-  width: 80%;
+  width: 100%;
   height: 520px;
+  display: flex;
+  justify-content: center;
   text-align: center;
   z-index: 10;
-  margin-top: 120px;
+  margin-top: 10px;
+  align-items: center;
 }
 
 .img-donaciones {
   position: absolute;
   width: auto;
   height: 250px;
-  margin-top: 80em;
+  margin-top: 64em;
+  justify-content: right;
+  margin-right: -5em;
 }
 
 .txt-donaciones {
@@ -817,12 +822,12 @@ div .description {
 .planes {
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 580px;
+  width: 57%;
+  height: 412px;
   background-image: url(./assets/Vector\ dona.svg);
   background-size: cover;
   background-position:center;
-  /* text-align: center; */
+  text-align: center;
   display: flex;
   flex-direction: column;
   }
@@ -1748,24 +1753,25 @@ select[name='elegir'] {
   width: 60%;
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
+  justify-content: left;
+  margin-top: 1em;
   margin-left: 8em;
   text-align: left;
-  z-index: 11;
+  z-index: 13;
 }
 
 .donaciones-derecha {
   width: 40%;
   display: flex;
-  text-align: left;
+  text-align: right;
   z-index: 12;
-  margin-top: 1.8em;
 }
 
 .img-donaciones {
   width: auto;
   height: 250px;
-  margin-top: 10px;
+  margin-top: 147px;
+  margin-right: -7.5em;
 }
 
 .txt-donaciones {
@@ -1792,6 +1798,20 @@ select[name='elegir'] {
 .vector-donaciones {
   width: 100%;
 }
+
+.planes {
+  align-items: center;
+  justify-content: center;
+  width: 78%;
+  height: 410px;
+  background-image: url(./assets/Vector\ dona.svg);
+  background-size: cover;
+  background-position:center;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  margin-right: 6em;
+  }
 
 .planes button {
   background-color: #ff4863;
