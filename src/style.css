@@ -566,7 +566,7 @@ div .description {
   width: 100%;
   height: 450px;
   margin-top: 200px;
-  margin-left: -310px;
+  margin-left: -306px;
   z-index: -300;
 }
 
@@ -602,7 +602,7 @@ div .description {
 }
 
 .form {
-  margin-top: 15em;
+  margin-top: 16em;
 }
 
 .form input {
@@ -1452,7 +1452,7 @@ select[name='elegir'] {
   text-align: right;
   z-index: 19;
   margin-top: 2em;
-  margin-right: 6em;
+  margin-right: 8em;
 }
 
 .vector-nosotros {
@@ -1555,7 +1555,7 @@ select[name='elegir'] {
 .img-registrate {
   width: auto;
   height: 250px;
-  margin-left: 290px;
+  margin-left: 300px;
   margin-bottom: -280px;
 }
 
@@ -1578,7 +1578,7 @@ select[name='elegir'] {
     font-family: "Josefin Sans";
     color: #ffffff;
     text-align: left;
-    margin-right: 12em;
+    margin-right: 24em;
 }
 
 .txt-registrate p {
@@ -1653,7 +1653,7 @@ select[name='elegir'] {
   text-align: right;
   z-index: 19;
   margin-top: 100px;
-  margin-right: 100px;
+  margin-right: 8em;
 }
 
 .vector-visitanos {
@@ -1803,14 +1803,13 @@ select[name='elegir'] {
   align-items: center;
   justify-content: center;
   width: 78%;
-  height: 410px;
+  height: 378px;
   background-image: url(./assets/Vector\ dona.svg);
   background-size: cover;
   background-position:center;
-  /* text-align: center; */
   display: flex;
   flex-direction: column;
-  margin-right: 6em;
+  margin-right: 8em;
   }
 
 .planes button {
