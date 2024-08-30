@@ -1,6 +1,7 @@
-# Monito: Plataforma de Adopción de Mascotas
+<img width="900" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&weight=500&size=23&pause=1000&color=FFA512FF&background=FFFFFF00&center=true&vCenter=true&multiline=true&random=false&width=600&height=100&lines=%C2%A1Bienvenido+a+Monito%3A+Patitas+Felices!++%F0%9F%90%B6%F0%9F%90%B1">
 
-## 1. Resumen del proyecto
+<img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=FFFFFFFF&background=FFFFFF00&multiline=true&random=false&width=435&lines=Resumen+del+Proyecto+%F0%9F%93%8B">
+<hr>
 
 
 <img width="300" height="500" align="right" src="https://imagenpng.com/wp-content/uploads/2021/04/pets-4.jpg">
@@ -13,8 +14,8 @@ La interfaz intuitiva permite explorar la variedad de mascotas disponibles clasi
 
 <br><br><br><br><br><br><br><br><br>
 
-## 2. Definición del Producto
-<br><br>
+<img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=FFFFFFFF&background=FFFFFF00&multiline=true&random=false&width=435&lines=Definición+del+Producto+%E2%9C%A8">
+<hr><br><br>
 Monito es una plataforma web diseñada para facilitar la adopción de perros y gatos en situación de abandono. Identificamos que los procesos actuales para adoptar mascotas a menudo dependen de redes sociales, lo que alarga innecesariamente el proceso y desalienta a posibles adoptantes. Monito ofrece una solución tecnológica centralizada donde los usuarios pueden ver qué mascotas están disponibles para adopción, filtrarlas según sus preferencias y realizar el proceso de adopción de manera rápida y sencilla.
 
 <br><br><br>
@@ -23,8 +24,9 @@ Monito es una plataforma web diseñada para facilitar la adopción de perros y g
 
 <br><br><br>
 
-## 3. Generación de Datos
-<br><br><br>
+<img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=FFFFFFFF&background=FFFFFF00&multiline=true&random=false&width=435&lines=Generación+de+Datos+%F0%9F%93%8A">
+<hr>
+<br><br><br><br><br>
 Para este proyecto, generamos un dataset de 24 mascotas utilizando inteligencia artificial. Cada registro incluye información como el nombre, tipo, edad, género, raza, tamaño, temperamento y una imagen asociada. A continuación, se muestra un ejemplo de un objeto de nuestro dataset:
 
 <img width="600" align="center" src="https://firebasestorage.googleapis.com/v0/b/almacenamiento-jas.appspot.com/o/Im%C3%A1genes%20README%2FGeneraci%C3%B3n%20de%20Datos%2FIndicaciones%20Prompt.jpg?alt=media&token=028918ca-3891-4dc0-a62b-742f82acee66">
@@ -49,8 +51,8 @@ El siguiente prompt fue utilizado para generar los datos del dataset:
 
 <br><br><br><br>
 
-## 4. Historias de Usuaria
-<br><br><br>
+<img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=FFFFFFFF&background=FFFFFF00&multiline=true&random=false&width=435&lines=Historias+de+Usuaria+%F0%9F%A4%93">
+<hr><br><br><br>
 ### Historia de Usuario 1: Visualización de Mascotas
 *Como* usuario interesado en adoptar,  
 *Quiero* poder ver un listado de las mascotas disponibles para adopción,  
@@ -82,8 +84,8 @@ El siguiente prompt fue utilizado para generar los datos del dataset:
 
 <br><br><br>
  
-## 5. Diseño de Interfaz de la Usuaria
-
+<img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=FFFFFFFF&background=FFFFFF00&multiline=true&random=false&width=435&lines=Diseño+de+Interfaz+de+la+Usuaria+%F0%9F%8E%A8">
+<hr>
 <img width="120" height="750" align="right" src="https://firebasestorage.googleapis.com/v0/b/almacenamiento-jas.appspot.com/o/Im%C3%A1genes%20README%2FPrototipo%20Figma.jpg?alt=media&token=6a7fe7de-c675-4d0a-8225-94bfb0175127">
 
 <br><br><br>
@@ -108,8 +110,8 @@ Creemos que Monito resuelve el problema central al ofrecer una plataforma accesi
 <br><br><br>
 
 
-
-## 6. Implementación de la Interfaz de Usuaria
+<img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=FFFFFFFF&background=FFFFFF00&multiline=true&random=false&width=435&lines=Implementación+de+la+Interfaz+de+Usuaria+%F0%9F%93%B1%F0%9F%96%A5%EF%B8%8F">
+<hr>
 <br><br><br>
 La implementación de la interfaz se realizó con HTML, CSS y JavaScript, siguiendo el diseño definido en el prototipo. Priorizamos las funcionalidades clave debido a las limitaciones de tiempo.
 
@@ -156,7 +158,8 @@ Además, la página web Monito ha sido diseñada para ser completamente responsi
 
 <br><br><br><br>
 
-## 7. Testeos de Usabilidad
+<img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=35&pause=1000&color=FFFFFFFF&background=FFFFFF00&multiline=true&random=false&width=435&lines=Testeos+de+Usabilidad+%E2%9C%85">
+<hr>
 <br><br><br>
 Realizamos pruebas de usabilidad con usuarios reales para identificar problemas en la interfaz. Los problemas más destacados fueron el corroborar los test, el paso de la data a través de los archivos. Por otro lado realizamos mejoras como el diseño responsive e implementación de más de un filtro que fue lo solicitado.
 
@@ -164,7 +167,8 @@ Realizamos pruebas de usabilidad con usuarios reales para identificar problemas 
 <img width="400" height="auto" align="center" src="https://firebasestorage.googleapis.com/v0/b/almacenamiento-jas.appspot.com/o/Im%C3%A1genes%20README%2FTests%20oas%2FImagen%20de%20WhatsApp%202024-08-16%20a%20las%2018.10.59_c5bd9656.jpg?alt=media&token=d288da18-d63a-411d-afdf-3d3c75594642"> <br><img width="400" height="auto" align="center" src="https://firebasestorage.googleapis.com/v0/b/almacenamiento-jas.appspot.com/o/Im%C3%A1genes%20README%2FTests%20oas%2FImagen%20de%20WhatsApp%202024-08-16%20a%20las%2018.10.32_8da89488.jpg?alt=media&token=0e083199-3c6d-4402-9282-ee5ae15e7635">
 
 
-## 8. Pruebas Unitarias
+<img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=FFFFFFFF&background=FFFFFF00&multiline=true&random=false&width=435&lines=Pruebas+Unitarias+%F0%9F%93%9D">
+<hr>
 <br><br><br>
 Para garantizar la calidad del código, escribimos pruebas unitarias para las funciones que procesan, filtran y ordenan los datos. Utilizamos Jest como framework de testing, y logramos una cobertura del 70% en statements, functions, lines, y branches.
 
