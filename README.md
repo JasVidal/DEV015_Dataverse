@@ -114,6 +114,8 @@ Para lograr esta flexibilidad, he implementado diversas técnicas de diseño y d
 
 * **Media Queries:** Utilicé Media Queries en CSS para aplicar estilos específicos según el tamaño de la pantalla, mejorando la presentación de la información y la navegación en cada dispositivo.
 
+![Prototipo-Interfaz](src/assets/Prototipo-Interfaz.gif)
+
 ### Formato Mobile
 
 <div align="center">
